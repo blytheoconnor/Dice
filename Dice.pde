@@ -69,14 +69,13 @@ class Die {
       } 
     }
   }
-      title(width/2 - (width/6), 40);
+      title(width/2 + width/10 - (width/6), 40);
  }
  
  void title(int a, int b) {
    PFont font;
    font = createFont("Georgia", 32);
    textFont(font);
-   //textAlign(a, b);
    text(("You rolled: " + dieCount), a, b);
  }
  
