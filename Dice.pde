@@ -2,12 +2,12 @@ Die d1;
 
 void setup() {
 	noLoop();
-  size(600,500);
+  size(600,400);
 }
 
 void draw() {
 	background (255); 
-  d1 = new Die ();
+  d1 = new Die();
   d1.roll();
 }
 
