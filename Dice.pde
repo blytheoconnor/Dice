@@ -69,7 +69,7 @@ class Die {
       } 
     }
   }
-      title(width/4+20, 40);
+      title(width/4+10, 40);
  }
  
  void title(int a, int b) {
