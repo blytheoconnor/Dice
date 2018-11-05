@@ -2,7 +2,7 @@ Die d1;
 
 void setup() {
 	noLoop();
-  size(600,400);
+  size(400,350);
 }
 
 void draw() {
