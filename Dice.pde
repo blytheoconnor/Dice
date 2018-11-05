@@ -16,7 +16,7 @@ void mousePressed() {
 }
 
 class Die {
-	int rollNum, x, y, dieS, dotW, dieCount;
+	int rollNum, dieS, dotW, dieCount;
 
 	Die() {
   dieS = (int)(Math.random() * 91) + 11;
