@@ -7,7 +7,7 @@ void setup() {
 
 void draw() {
 	background (255); 
-  d1 = new Die (0,0);
+  d1 = new Die ();
   d1.roll();
 }
 
@@ -18,7 +18,7 @@ void mousePressed() {
 class Die {
 	int rollNum, x, y, dieS, dotW, dieCount;
 
-	Die(int x, int y) {
+	Die() {
   dieS = (int)(Math.random() * 91) + 11;
   dotW = dieS/5;
   rollNum = 1;
@@ -69,7 +69,7 @@ class Die {
       } 
     }
   }
-      title(width/2 + width/10 - (width/6), 40);
+      title(width/4+15, 40);
  }
  
  void title(int a, int b) {
