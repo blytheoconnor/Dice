@@ -69,14 +69,15 @@ class Die {
       } 
     }
   }
-      title(10, 40);
+      title(width/4 + 20, 40);
  }
  
  void title(int a, int b) {
+   fill(0);
    PFont font;
    font = createFont("Georgia", 20);
    textFont(font);
-   text(("You rolled a sum of: " + dieCount), a, b);
+   text(("Sum of roll: " + dieCount), a, b);
  }
  
 }
