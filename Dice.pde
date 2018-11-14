@@ -1,3 +1,7 @@
+/* DICE PROJECT
+ * By: Blythe O'Connor
+*/
+
 Die d1;
 
 void setup() {
